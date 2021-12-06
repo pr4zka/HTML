@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 20px;
+  color: red;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+header,
+footer,
+section,
+nav,
+article,
+aside,
+hgroup {
+  display: block;
+}
+body {
+  text-align: center;
+}
+.agrupar {
+  width: 970px;
+  margin: 15px auto;
+  padding: 10px;
+  border: red 10px solid;
+}
+.header {
+  background: black;
+  border: 1px solid;
+  padding: 20px;
+}
+.menu {
+  background: white;
+  color: black;
+  font-family: sans-serif;
+  padding: 0;
+  text-align: left;
+}
+
+.menu li {
+  list-style: none;
+  padding: 5px;
+  display: inline-block;
+}
+.cabezera h1 {
+  text-align: left;
+  color: black;
+}
+.seccion {
+  margin: 20px;
+  width: 600px;
+
+  float: left;
+}
+.columna {
+  width: 300px;
+  text-align: right;
+  float: left;
+  color: red;
+  margin: 30px 0;
+}
+.pie {
+  clear: both;
+  font-family: sans-serif;
+}
+.itachi {
+  border: solid black;
+  margin: 10px 0;
+  margin-bottom: 15px;
+}
+.kakashi {
+  border: solid black;
+  margin: 10px 0;
+  margin-bottom: 15px;
+}
+.kakashi footer{
+  text-align: right;
+  margin: 20px;
+}
+.itachi footer{
+  text-align: right;
+  margin: 20px;
+}
+time{
+color: #9999;
+
+}
+.columna blockquote{
+border: 1px solid black;
+padding: 40px;
+margin-bottom: 20px;
+
+}
